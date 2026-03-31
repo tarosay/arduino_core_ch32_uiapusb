@@ -19,7 +19,7 @@
           "checksum": "SHA-256:5AD2F314988D66E4B78EEB4A7C0433A27FCF76081B3988BC1A2CF9F590957A43",
           "size": "1374315",
           "boards": [
-            { "name": "Pro Micro CH32V003" }
+            { "name": "Pro Micro CH32V003 (UIAPUSB)" }
           ],
           "toolsDependencies": [
             {

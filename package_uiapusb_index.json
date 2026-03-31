@@ -12,12 +12,12 @@
         {
           "name": "UIAPUSBduino",
           "architecture": "ch32v",
-          "version": "0.0.1",
+          "version": "0.0.2",
           "category": "Contributed",
-          "url": "https://github.com/tarosay/arduino_core_ch32_uiapusb/archive/refs/tags/0.0.1.zip",
-          "archiveFileName": "0.0.1.zip",
-          "checksum": "SHA-256:5AD2F314988D66E4B78EEB4A7C0433A27FCF76081B3988BC1A2CF9F590957A43",
-          "size": "1374315",
+          "url": "https://github.com/tarosay/arduino_core_ch32_uiapusb/archive/refs/tags/0.0.2.zip",
+          "archiveFileName": "0.0.2.zip",
+          "checksum": "SHA-256:90C47876735D934C5853674D6B8803FB38C47BBFF30E4003E78C716F484D4B30",
+          "size": "1374325",
           "boards": [
             { "name": "Pro Micro CH32V003 (UIAPUSB)" }
           ],

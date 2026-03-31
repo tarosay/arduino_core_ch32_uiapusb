@@ -14,10 +14,10 @@
           "architecture": "ch32v",
           "version": "0.0.1",
           "category": "Contributed",
-          "url": "https://github.com/YuukiUmeta-UIAP/arduino_core_ch32/archive/refs/tags/1.0.42.zip",
-          "archiveFileName": "arduino_core_ch32-1.0.42.zip",
-          "checksum": "SHA-256:f54bd8d9810a55aea7bbe8ae6e37ed8ef7840815df60fc3d759a0685ea800e08",
-          "size": "1361688",
+          "url": "https://github.com/tarosay/arduino_core_ch32_uiapusb/archive/refs/tags/0.0.1.zip",
+          "archiveFileName": "0.0.1.zip",
+          "checksum": "SHA-256:5AD2F314988D66E4B78EEB4A7C0433A27FCF76081B3988BC1A2CF9F590957A43",
+          "size": "1374315",
           "boards": [
             { "name": "Pro Micro CH32V003" }
           ],

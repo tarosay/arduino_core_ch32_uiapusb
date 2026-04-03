@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://github.com/tarosay/arduino_core_ch32_uiapusb/archive/refs/tags/0.0.4.zip",
           "archiveFileName": "0.0.4.zip",
-          "checksum": "SHA-256:b739eb1412f7a7716bb031ca60b0df09049e65006e998715124ee04d9c1cf6e8",
-          "size": "1406328",
+          "checksum": "SHA-256:28ace3a142f12d5f9eaf7c62e08ceec4b72e86852930e2fdcd400aec34a64681",
+          "size": "1459082",
           "boards": [
             { "name": "Pro Micro CH32V003 (UIAPUSB)" }
           ],

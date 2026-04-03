@@ -12,8 +12,9 @@ public:
     int available() const;
     int recv(void* data, int maxlen);
 
-private:
     static volatile uint8_t _configured;
+private:
+
 };
 
 extern UIAPRawHID RawHID;

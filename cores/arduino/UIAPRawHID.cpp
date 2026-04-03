@@ -2,7 +2,9 @@
 
 #define INSTANCE_DESCRIPTORS 1
 
+extern "C" {
 #include "rv003usb.h"
+}
 #include "usb_config.h"
 
 volatile uint8_t UIAPRawHID::_configured = 0;
@@ -25,11 +27,9 @@ static uint8_t g_rx_buf[UIAPRawHID::ReportSize];
 
 extern "C" {
 
-struct rv003usb_internal rv003usb_internal_data;
-
 // rv003usb expects this symbol.
-uint32_t always0_storage = 0;
-uint32_t * always0 = &always0_storage;
+//uint32_t always0_storage = 0;
+//uint32_t * always0 = &always0_storage;
 
 void uiapusb_init(void)
 {

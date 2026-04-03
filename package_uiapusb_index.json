@@ -12,10 +12,10 @@
         {
           "name": "UIAPUSBduino",
           "architecture": "ch32v",
-          "version": "0.0.3",
+          "version": "0.0.4",
           "category": "Contributed",
-          "url": "https://github.com/tarosay/arduino_core_ch32_uiapusb/archive/refs/tags/0.0.3.zip",
-          "archiveFileName": "0.0.3.zip",
+          "url": "https://github.com/tarosay/arduino_core_ch32_uiapusb/archive/refs/tags/0.0.4.zip",
+          "archiveFileName": "0.0.4.zip",
           "checksum": "SHA-256:b739eb1412f7a7716bb031ca60b0df09049e65006e998715124ee04d9c1cf6e8",
           "size": "1406328",
           "boards": [

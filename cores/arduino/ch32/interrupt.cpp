@@ -225,16 +225,15 @@ void _gpio_exti_callback(uint16_t GPIO_Pin)
 extern "C" {
 #endif
 
-void EXTI7_0_IRQHandler(void) __attribute__((interrupt("WCH-Interrupt-fast")));
-void EXTI7_0_IRQHandler(void)
+void uiapusb_gpio_exti7_0_handler(void)
 {
    uint32_t pin;
-   for (pin = GPIO_Pin_0; pin <= GPIO_Pin_7; pin = pin << 1) 
+   for (pin = GPIO_Pin_0; pin <= GPIO_Pin_7; pin = pin << 1)
    {
-      if(EXTI_GetITStatus(pin))        
+      if (EXTI_GetITStatus(pin))
       {
-        EXTI_ClearITPendingBit(pin);   //0x1 2 4 8 10 20 40 80
-        _gpio_exti_callback(pin);
+         EXTI_ClearITPendingBit(pin);
+         _gpio_exti_callback(pin);
       }
    }
 }
